@@ -27,5 +27,5 @@ return !!token
 )
 
 export const config ={
-  matcher:["" ]
+  matcher: ["/((?!api/auth|login|register).*)"], // ✅ fixed
 }
